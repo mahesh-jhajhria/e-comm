@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="e-comm.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>NZ's</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#shop">shop</a></li>
+                <li><a href="#arrival">New Arrivel</a></li>
+                <li><a href="#blog">blog's</a></li>
+            </ul>
+            <input type="text" placeholder="filter" id="find">
+            <i id="cart" class="ri-shopping-cart-2-line"></i>
+        </nav>
+        <div class="main">
+            <div class="maintext">
+                <h1>Discover & shop<br> the trend NZ's </h1>
+                <p> Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Ipsa tempore explicabo,<br> nihil harum reiciendis veritatis vitae<br> nesciunt odit mollitia eligendi recusandae,
+                </p>
+                <button>Explore</button>
+            </div>
+            <img src="head.avif" alt="">
+        </div>
+        <div id="shop">
+            <div class="head">
+                <h1>shop Now..</h1>
+            </div>
+            <div class="shop">
+                <div class="product">
+                    <img src="${element.image}" alt="">
+                    <p>Trends At NZ's </p>
+                    <p> Price Rs.${element.price} | ${element.rating.rate}*</p>
+                    <h3>${element.title}</h3>
+                    <button> view</button>
+                </div>
+
+            </div>
+        </div>
+        <div id="arrival">
+            <div class="head">
+                <h1>New Arrival's</h1>
+            </div>
+            <div class="arrival">
+                <img src="ar.avif" alt="">
+                <div class="arrivalText">
+                    <h1> live With trends </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur natus rerum perspiciatis adipisci inventore ipsam nisi magni doloribus soluta laudantium eveniet, quibusdam, facere libero expedita fugit ratione corrupti voluptas
+                        dolores.
+                    </p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="blog">
+            <div class="head">
+                <h1>
+                    Read Blogs
+                </h1>
+            </div>
+            <div class="blogs">
+                <div class="blogCard">
+                    <img src="b1.jpg" alt="">
+                    <h3> latest Blogs on Trends</h3>
+                    <a target="_blank" href="https://timesofindia.indiatimes.com/blogs/">Read Blogs</a>
+
+                </div>
+                <div class="blogCard">
+                    <img src="b2.avif" alt="">
+                    <h3> latest Blogs on Tnds</h3>
+                    <a target="_blank" href="https://timesofindia.indiatimes.com/blogs/">Read Blogs</a>
+
+                </div>
+                <div class="blogCard">
+                    <img src="b3.jpg" alt="">
+                    <h3> latest Blogs on Trends</h3>
+                    <a target="_blank" href="https://timesofindia.indiatimes.com/blogs/">Read Blogs</a>
+
+                </div>
+            </div>
+            <div class="footer">
+                <div class="text">
+                    <h3> About Us</h3>
+                    <p>Lorem ipsum dolor sit, amet<br> consectetur adipisicing elit.<br> Nam, tempore. Libero minima sint<br> laborum, dolor omnis quos.</p>
+                </div>
+                <div class="text">
+                    <h3> prodect</h3>
+                    <p> Quality</p>
+                    <p>offer</p>
+                    <p>return</p>
+                    <p>Quality</p>
+                </div>
+                <div class="text">
+                    <h3>PRice</h3>
+                    <p>Best</p>
+                    <p> Quality</p>
+                    <p> Affordable</p>
+                    <p>lowest price</p>
+                </div>
+                <div class="text">
+                    <h3> Connect Us</h3>
+                    <p>Twittr</p>
+                    <p>Facebook</p>
+                    <p> Instagram</p>
+                    <p>Linkedin</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="e-comm.js"></script>
+</body>
+
+</html>
